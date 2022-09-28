@@ -5,31 +5,35 @@
 body{
     background-color:  rgba(106, 112, 167, 0.4);
 }
+.theme{
+    display: flex;
+    justify-content: space-between;
+}
 .header{
     border-bottom: 3px solid rgb(26, 148, 182);;
     margin-bottom: 20px;
     border-radius: 50%;
 }
 .header h1{
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
-    margin: 30px;
-    color:  rgb(26, 148, 182);
+    margin: 15px;
     font-family:cursive;
     position: relative;
 }
+
 .header h1::before{
     content:"* * *";
     width: 40%;
     position: absolute;
-    top: 30%;
+    top: 20%;
     right:0;
 }
 .header h1::after{
     content:"* * *";
     width: 40%;
     position: absolute;
-    top: 30%;
+    top: 20%;
     left:0;
 }
 .row{
@@ -147,5 +151,39 @@ opacity: 1;
             font-size: 15px;
             margin-top: 30px;
         }
-         
+}
+.dark{
+    background-color: black;
+color: white ;
+}
+.light{
+    background-color:white ;
+    color: black ;
+}
+.darkIcon{
+    color:black;
+}
+button{
+    padding: 15px 50px;
+    margin:17px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.button{
+    padding: 10px 30px;
+    background-color: rgba(106, 112, 167, 0.4);
+    font-size: 18px;
+
+}
+.icon{
+    margin-right: 40px;
+    font-size: 40px;
+    background-color:  rgba(106, 112, 167, 0);
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
 }
